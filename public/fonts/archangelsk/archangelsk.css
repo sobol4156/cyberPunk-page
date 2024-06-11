@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Archangelsk';
+	src: url('./archangelsk.eot'); /* IE 9 Compatibility Mode */
+	src: url('./archangelsk.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./archangelsk.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./archangelsk.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./archangelsk.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./archangelsk.svg#archangelsk') format('svg'); /* Chrome < 4, Legacy iOS */
+}

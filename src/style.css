@@ -1,3 +1,6 @@
+@import url('../public/fonts/archangelsk/archangelsk.css');
+@import url('../public/fonts/roboto/roboto.css');
+
 body{
   margin: 0;
 }
@@ -5,4 +8,8 @@ body{
   max-width: 1208px;
   padding: 0 36px;
   margin: 0 auto;
+}
+.corner-block{
+  clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
+  overflow: hidden;
 }
