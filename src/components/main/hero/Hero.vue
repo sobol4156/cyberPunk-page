@@ -108,9 +108,49 @@ import "swiper/css/autoplay";
   }
 }
 
+
 @media(width<533px){
     .hero__container{
         padding: 0;
+    }
+    .hero-info{
+       padding: 50px;
+       h2{
+        font-size: 48px;
+        line-height: 48px;
+       }
+       button{
+        padding: 20px 40px;
+       }
+    }
+}
+@media(width<400px){
+
+    .hero-info{
+        padding: 40px;
+       h2{
+        font-size: 32px;
+        line-height: 32px;
+       }
+       button{
+        padding: 15px 30px;
+
+       }
+    }
+}
+@media(width<374px){
+
+    .hero-info{
+       padding: 30px;
+       h2{
+        font-size: 32px;
+        line-height: 32px;
+       }
+       button{
+        
+        line-height: 20px;
+        font-size: 20px;
+       }
     }
 }
 </style>
