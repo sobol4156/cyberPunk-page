@@ -4,8 +4,8 @@
 
 <template>
     <header class="header">
-        <div class="container header__container">
-            <img class="header__logo" src="@public/image/header/cyberpunk.jpg" alt="">
+        <div class=" header__container container">
+            <img class="header__logo" src="https://live.verstaem.online/cyberpunk/img/cyberpunk.svg" alt="">
             <div class="header__social">
                 <ul class="header__list">
                     <li class="header__item">
@@ -45,6 +45,13 @@
 </template>
 
 <style lang="scss" scoped>
+.header{
+    
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+
+}
 .header__logo{
     width: 296px;
     height: 74px;
@@ -52,6 +59,7 @@
 .header__container{
     display: flex;
     justify-content: space-between;
+    margin: 20px auto;
 }
 .header__social{
     display: flex;
