@@ -66,4 +66,26 @@
         list-style-type: none;
     }
 }
+@media(width<760px){
+    .header__container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(width<370px){
+    .header__item-img{
+        width: 23px;
+        height: 23px;
+    }
+}
+@media(width<315px){
+    .header__item-img{
+        width: 19px;
+        height: 19px;
+    }
+    .header__logo{
+        width: 250px;
+        height: 65px;
+    }
+}
 </style>
