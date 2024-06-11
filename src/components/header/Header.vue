@@ -10,32 +10,32 @@
                 <ul class="header__list">
                     <li class="header__item">
                         <a class="header__item-link" href="#">
-                            <img class="header__item-img" src="@public/image/header/social/youtube.svg" alt="">
+                            <img class="header__item-img" src="/image/header/social/youtube.svg" alt="">
                         </a>
                     </li>
                     <li class="header__item">
                         <a class="header__item-link" href="#">
-                            <img class="header__item-img" src="@public/image/header/social/vk.svg" alt="">
+                            <img class="header__item-img" src="/image/header/social/vk.svg" alt="">
                         </a>
                     </li>
                     <li class="header__item">
                         <a class="header__item-link" href="#">
-                            <img class="header__item-img" src="@public/image/header/social/facebook.svg" alt="">
+                            <img class="header__item-img" src="/image/header/social/facebook.svg" alt="">
                         </a>
                     </li>
                     <li class="header__item">
                         <a class="header__item-link" href="#">
-                            <img class="header__item-img" src="@public/image/header/social/twitter.svg" alt="">
+                            <img class="header__item-img" src="/image/header/social/twitter.svg" alt="">
                         </a>
                     </li>
                     <li class="header__item">
                         <a class="header__item-link" href="#">
-                            <img class="header__item-img" src="@public/image/header/social/twitch.svg" alt="">
+                            <img class="header__item-img" src="/image/header/social/twitch.svg" alt="">
                         </a>
                     </li>
                     <li class="header__item">
                         <a class="header__item-link" href="#">
-                            <img class="header__item-img" src="@public/image/header/social/instagram.svg" alt="">
+                            <img class="header__item-img" src="/image/header/social/instagram.svg" alt="">
                         </a>
                     </li>
                 </ul>

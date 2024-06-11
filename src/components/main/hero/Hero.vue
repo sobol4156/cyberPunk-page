@@ -54,12 +54,12 @@ import "swiper/css/autoplay";
   width: 100%;
 }
 .hero-slide-1 {
-  background-image: url("@public/image/main/hero/11.jpg");
+  background-image: url("/image/main/hero/11.jpg");
 }
 .hero-slide-2 {
-  background-image: url("@public/image/main/hero/12.jpg");
+  background-image: url("/image/main/hero/12.jpg");
 }
 .hero-slide-3 {
-  background-image: url("@public/image/main/hero/13.jpg");
+  background-image: url("/image/main/hero/13.jpg");
 }
 </style>
