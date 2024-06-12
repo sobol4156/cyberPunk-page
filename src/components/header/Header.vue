@@ -10,7 +10,7 @@
                 <ul class="header__list">
                     <li class="header__item">
                         <a class="header__item-link" href="#">
-                            <img class="header__item-img" src="/image/header/social/youtube.svg" alt="">
+                            <img class="header__item-img img-youtube" src="/image/header/social/youtube.svg" alt="">
                         </a>
                     </li>
                     <li class="header__item">
@@ -66,6 +66,7 @@
     align-items: center;
 }
 
+
 .header__list{
     display: flex;
     gap: 32px;
@@ -74,16 +75,33 @@
         list-style-type: none;
     }
 }
+.img-youtube{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 28px;
+    height: 28px;
+}
 @media(width<760px){
     .header__container{
         flex-direction: column;
         align-items: center;
+        margin-top: 10px;
     }
-}
-@media(width<370px){
+    .header__logo{
+        width: 200px;
+        height: 50px;
+    }
     .header__item-img{
         width: 23px;
         height: 23px;
+    }
+    .img-youtube{
+    width: 21px;
+    height: 21px;
+}
+    .header__list{
+        margin-top: 8px;
+        gap: 25px;
     }
 }
 @media(width<315px){
