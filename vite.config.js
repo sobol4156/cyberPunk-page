@@ -11,5 +11,5 @@ export default defineConfig({
     }
     )
   ],
-  base: '/cyberPunk-page/' 
+  base: '/cyberpunk-page/' 
 });
