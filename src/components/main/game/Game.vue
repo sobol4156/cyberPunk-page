@@ -10,6 +10,7 @@ function toggleCheck() {
 
 <template>
   <section class="game">
+    <div class="game__header"></div>
     <div class="container game__container">
       <div class="game__title">
         <img src="/image/main/game/promo.png" alt="" />
@@ -46,10 +47,22 @@ function toggleCheck() {
         </form>
       </div>
     </div>
+    <div class="game__footer"></div>
   </section>
 </template>
 
 <style lang="scss" scoped>
+.game__header{
+  background-image: url('/image/main/game/header.png');
+  background-repeat: no-repeat;
+  height: 70px;
+}
+.game__footer{
+  background-image: url('/image/main/game/footer.png');
+  background-repeat: no-repeat;
+  height: 70px;
+}
+
 .game {
   background-color: black;
   color: white;

@@ -36,14 +36,11 @@
           />
         </div>
       </div>
-      
     </div>
   </section>
-  <div class="crossing"></div>
 </template>
 
 <style lang="scss" scoped>
-
 .about__container {
   margin-top: 80px;
   margin-bottom: 60px;
@@ -93,9 +90,8 @@
   gap: 32px;
 }
 
-.crossing{
-  
-  background-image: url('/image/main/about/crossing.png');
+.crossing {
+  background-image: url("/image/main/about/crossing.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
@@ -107,46 +103,71 @@
     flex-direction: column;
   }
 
-
   .about__image-two {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  gap: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 32px;
 
-  img {
-    width: 100%;
-    height: 100%;
-    
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .about__image-last {
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 }
-.about__image-last {
-  img {
-    width: 100%;
-    height: 100%;
+
+@media (width<763px) {
+  .about__title{
+    margin-top: 0;
     
   }
-}
+  .about__container{
+    margin-top: 40px;
+  }
 }
 
-@media(width<550px){
-    .about__image-two{
-        flex-direction: column;
+@media (width<550px) {
+  .about__image-two {
+    flex-direction: column;
+  }
+  .about__container {
+    padding: 0;
+  }
+  .about__description,
+  .about__title {
+    padding: 0 20px;
+  }
+  .about__image-last {
+    overflow: hidden;
+    img {
+      height: 424px;
+      object-fit: cover;
+      clip-path: polygon(
+        17% 0,
+        100% 0,
+        100% 87%,
+        85% 100%,
+        25% 100%,
+        0 100%,
+        0 13%
+      );
     }
-    .about__container{
-        padding: 0;
-    }
-    .about__description, .about__title{
-        padding: 0 20px;
-    }
-    .about__image-last{
-
-        overflow: hidden;
-        img{
-            height: 424px;
-            object-fit: cover; 
-            clip-path: polygon(17% 0, 100% 0, 100% 87%, 85% 100%, 25% 100%, 0 100%, 0 13%);
-        }
-    }
+  }
+}
+@media (width<448px) {
+  .about__container{
+    margin-top: 30px;
+  }
+  .about__title {
+    font-size: 48px;
+    line-height: 48px;
+    margin-top: 0;
+  }
 }
 </style>

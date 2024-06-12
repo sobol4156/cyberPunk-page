@@ -27,10 +27,13 @@ import "swiper/css/autoplay";
       </swiper-slide>
     </swiper>
     <div class="container hero__container">
-      <div class="hero-info corner-block">
+      <div class="hero-info corner-block ">
+        
         <h2>Доступно на всех платформах</h2>
         <button>Узнать больше</button>
+
       </div>
+      <div class="hero-white"></div>
     </div>
   </section>
 </template>
@@ -112,6 +115,7 @@ import "swiper/css/autoplay";
 @media(width<533px){
     .hero__container{
         padding: 0;
+
     }
     .hero-info{
        padding: 50px;
@@ -122,6 +126,13 @@ import "swiper/css/autoplay";
        button{
         padding: 20px 40px;
        }
+    }
+    .hero-white{
+      width: 100%;
+      height: 70px;
+      background-color: white;
+      position: absolute;
+      z-index: 2;
     }
 }
 @media(width<400px){
