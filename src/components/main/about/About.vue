@@ -36,13 +36,17 @@
           />
         </div>
       </div>
+      
     </div>
   </section>
+  <div class="crossing"></div>
 </template>
 
 <style lang="scss" scoped>
+
 .about__container {
   margin-top: 80px;
+  margin-bottom: 60px;
 }
 .about__title {
   font-family: Archangelsk;
@@ -87,6 +91,15 @@
   display: flex;
   justify-content: space-between;
   gap: 32px;
+}
+
+.crossing{
+  
+  background-image: url('/image/main/about/crossing.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 70px;
 }
 
 @media (width<1024px) {
