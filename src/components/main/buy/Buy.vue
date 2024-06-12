@@ -27,12 +27,12 @@
         <p>Выберите платформу:</p>
         <div class="buy-images">
           <div class="buy-image">
-            <img src="/image/main/buy/pc.png" alt="" />
-            <img src="/image/main/buy/xbox.png" alt="" />
+            <img  src="/image/main/buy/pc.png" alt="" />
+            <img  src="/image/main/buy/xbox.png" alt="" />
           </div>
           <div class="buy-image">
-            <img src="/image/main/buy/stadia.png" alt="" />
-            <img src="/image/main/buy/playstation.png" alt="" />
+            <img  src="/image/main/buy/stadia.png" alt="" />
+            <img  src="/image/main/buy/playstation.png" alt="" />
           </div>
         </div>
       </div>
@@ -52,8 +52,8 @@
   height: 717px;
 }
 .buy__content {
-  width: 976px;
-
+  width: 936px;
+    
   p {
     font-family: Roboto;
     font-size: 24px;
@@ -104,5 +104,83 @@
         display: flex;
         justify-content: space-between;
     }
+}
+@media(width<1345px){
+    .buy__content{
+        width: 672px;
+        flex-shrink: 0;
+    }
+}
+@media(width<1000px){
+
+    .buy__content{
+        width: 1972px;
+        flex-shrink: 1;
+    }
+
+}
+@media(width<763px){
+    .buy__container{
+        flex-direction: column;
+    }
+    .buy__content{
+        padding: 0 20px 60px;
+        width: auto;
+        flex-shrink: 1;
+    }
+    .buy__left-image{
+        overflow: hidden;
+        width: auto;
+        height: 400px;
+        img{
+            width: auto;
+            height: auto;
+        }
+    }
+    .buy__title{
+        margin-top: 0;
+    }
+    
+}
+@media(width<550px){
+ .buy__left-image{
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    img{
+        width: 100%;
+    }
+ }   
+ .buy__title{
+    font-size: 52px;
+    line-height: 52px;
+ }
+ .buy__content{
+    p{
+        font-size: 20px;
+    }
+    .buy__list-item{
+        font-size: 16px;
+    }
+ }
+}
+@media(width<475px){
+    .buy__title{
+    font-size: 40px;
+    line-height: 40px;
+ }
+ .buy-image{
+
+ }
+}
+@media(width<370px){
+    .buy__title{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+ }
+ .buy-images{
+    gap: 30px;
+ }
 }
 </style>
