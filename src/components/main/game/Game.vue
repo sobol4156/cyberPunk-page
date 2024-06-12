@@ -41,7 +41,7 @@ function toggleCheck() {
           </label>
           <button class="form-btn">Отправить</button>
           <span @click="toggleCheck" class="form__agree" :class="{checked: isChecked}">
-            Согласен на обработку персональных данных
+            Согласен на обработку персональных <span>данных</span> 
           </span>
         </form>
       </div>
@@ -56,6 +56,10 @@ function toggleCheck() {
 }
 .game__container {
   padding: 20px 20px 80px 20px;
+  background-image: url('/image/main/game/console1.png');
+  background-repeat: no-repeat;
+  background-position: 95% 70%;
+  background-size: 60%;
 }
 .game__title {
   display: flex;
@@ -86,13 +90,18 @@ function toggleCheck() {
 }
 .game__form {
   max-width: 460px;
-  padding-top: 63px;
+  padding-top: 83px;
   display: flex;
   flex-direction: column;
-  gap: 36px;
+}
+.game__form > *:not(:nth-last-child(2)):not(:last-child){
+  margin-bottom: 32px;
+}
+.game__form >:nth-last-child(2){
+  margin-bottom: 10px;
 }
 .form-input {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
   border: none;
   border-bottom: 1px solid #777;
   padding: 11px;
@@ -192,5 +201,87 @@ function toggleCheck() {
 }
 .form__agree.checked::after {
   display: block;
+}
+
+@media(width<1150px){
+  .game__container {
+
+  background-image: url('/image/main/game/console2.png');
+  background-repeat: no-repeat;
+  background-position: 95% 70%;
+  background-size: 465px 870px;
+}
+.game__instruction{
+  max-width: 460px;
+}
+.game__title{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  display: inline-flex;
+  h2{
+    margin: 0;
+    max-width: 460px;
+    display: inline-block;
+  }
+}
+@media(width<950px){
+  .game__title{
+    gap: 250px;
+    
+    display: flex;
+    
+    h2{
+      display: block;
+      max-width: 600px;
+    }
+  }
+  .game__container {
+
+background-image: url('/image/main/game/console1.png');
+background-repeat: no-repeat;
+background-position: 10% 15%;
+background-size: 480px 280px;
+}
+}
+}
+@media(width<540px){
+.game__container{
+  background-size: 90%;
+}
+.game__title{
+
+}
+}
+@media(width<470px){
+
+.game__title{
+  gap: 200px;
+  h2{
+    font-size: 52px;
+    line-height: 52px;
+  }
+}
+}
+@media(width<340px){
+
+.game__title{
+  gap: 170px;
+
+
+}
+.form__agree{
+  span{
+    margin-left: 26px;
+  }
+}
+}
+@media(width<294px){
+  .form__agree{
+    
+  span{
+    margin-left: 0;
+  }
+}
 }
 </style>
