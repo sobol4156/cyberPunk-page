@@ -1,4 +1,5 @@
 <script setup>
+import Buy from './components/main/buy/Buy.vue';
 import Hp from './components/main/hp/Hp.vue';
 import Header from './components/header/Header.vue';
 import About from './components/main/about/About.vue';
@@ -16,6 +17,7 @@ import Hero from './components/main/hero/Hero.vue';
       <About/>
       <Game/>
       <Hp/>
+      <Buy/>
     </main>
   
 </template>

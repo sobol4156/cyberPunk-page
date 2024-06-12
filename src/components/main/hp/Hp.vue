@@ -81,9 +81,9 @@
 }
 .hp__monitor {
   margin-bottom: 32px;
-  max-width: 100%;
+  max-width: 624px;
   img {
-    width: 100%;
+   width: 100%;
   }
 }
 .hp__small-img {
@@ -101,6 +101,7 @@
 }
 
 .hp__text {
+    max-width: 624px;
   p {
     margin-top: 0;
     font-family: Roboto;
