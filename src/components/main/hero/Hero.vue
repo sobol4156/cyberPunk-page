@@ -62,13 +62,13 @@ import "swiper/css/autoplay";
   width: 100%;
 }
 .hero-slide-1 {
-  background-image: url("/image/main/hero/11.jpg");
+  background-image: url("/image/main/hero/11.webp");
 }
 .hero-slide-2 {
-  background-image: url("/image/main/hero/12.jpg");
+  background-image: url("/image/main/hero/12.webp");
 }
 .hero-slide-3 {
-  background-image: url("/image/main/hero/13.jpg");
+  background-image: url("/image/main/hero/13.webp");
 }
 
 .hero__container {

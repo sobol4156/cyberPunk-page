@@ -16,14 +16,14 @@
           <div>
             <img
               class="about__image-1"
-              src="/image/main/about/about1.png"
+              src="/image/main/about/about1.webp"
               alt=""
             />
           </div>
           <div>
             <img
               class="about__image-2"
-              src="/image/main/about/about2.png"
+              src="/image/main/about/about2.webp"
               alt=""
             />
           </div>
@@ -31,7 +31,7 @@
         <div class="about__image-last">
           <img
             class="about__image-3"
-            src="/image/main/about/about3.png"
+            src="/image/main/about/about3.webp"
             alt=""
           />
         </div>
@@ -90,13 +90,7 @@
   gap: 32px;
 }
 
-.crossing {
-  background-image: url("/image/main/about/crossing.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 70px;
-}
+
 
 @media (width<1024px) {
   .about__images {

@@ -5,8 +5,8 @@
     <div class="footer-up">
       <div class="footer__container container">
         <div class="footer__logos">
-          <img class="footer__logo-first" src="/image/footer/first.png" alt="" />
-          <img class="footer__logo-second" src="/image/footer/second.png" alt="" />
+          <img class="footer__logo-first" src="/image/footer/first.webp" alt="" />
+          <img class="footer__logo-second" src="/image/footer/second.webp" alt="" />
         </div>
         <div class="footer__nav">
           <ul class="footer__list">

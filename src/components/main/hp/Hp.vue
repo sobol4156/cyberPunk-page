@@ -6,7 +6,7 @@
       <div class="hp__content">
         <div class="hp__images">
           <picture class="hp__monitor">
-            <img src="/image/main/hp/monitor.png" alt="" />
+            <img src="/image/main/hp/monitor.webp" alt="" />
           </picture>
           <div class="hp__small-img">
             <div>
@@ -26,7 +26,7 @@
             <div>
               <img
                 class="hp__image-item"
-                src="/image/main/hp/cyberlogo.png"
+                src="/image/main/hp/cyberlogo.webp"
                 alt=""
               />
             </div>
@@ -42,15 +42,15 @@
           </p>
           <ul class="hp__list">
             <li class="hp__list-item">
-              <img src="/image/main/hp/img1.svg" alt="" />
+              <img src="/image/main/hp/img1.webp" alt="" />
               <span>Яркие насыщенные цвета</span>
             </li>
             <li class="hp__list-item">
-              <img src="/image/main/hp/img2.svg" alt="" />
+              <img src="/image/main/hp/img2.webp" alt="" />
               <span>Кристальная четкость изображения</span>
             </li>
             <li class="hp__list-item">
-              <img src="/image/main/hp/img3.svg" alt="" />
+              <img src="/image/main/hp/img3.webp" alt="" />
               <span>Быстрые движения и плавный геймплей</span>
             </li>
           </ul>

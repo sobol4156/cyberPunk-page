@@ -4,7 +4,7 @@
   <section class="buy">
     <div class="buy__container">
       <div class="buy__left-image">
-        <img src="/image/main/buy/main.png" alt="" />
+        <img src="/image/main/buy/main.webp" alt="" />
       </div>
 
       <div class="buy__content">
@@ -12,27 +12,27 @@
         <p>В комплект входит:</p>
         <ul class="buy__list">
           <li class="buy__list-item">
-            <img src="/image/main/buy/disk.png" alt="" />
+            <img src="/image/main/buy/disk.webp" alt="" />
             <span>Футляр с игровыми дисками</span>
           </li>
           <li class="buy__list-item">
-            <img src="/image/main/buy/Group.png" alt="" />
+            <img src="/image/main/buy/Group.webp" alt="" />
             <span>Футляр с кодом для загрузки игры и дисками (pc)</span>
           </li>
           <li class="buy__list-item">
-            <img src="/image/main/buy/collections.png" alt="" />
+            <img src="/image/main/buy/collections.webp" alt="" />
             <span>Справочник с информацией об игровом мире</span>
           </li>
         </ul>
         <p>Выберите платформу:</p>
         <div class="buy-images">
           <div class="buy-image">
-            <img  src="/image/main/buy/pc.png" alt="" />
-            <img  src="/image/main/buy/xbox.png" alt="" />
+            <img  src="/image/main/buy/pc.webp" alt="" />
+            <img  src="/image/main/buy/xbox.webp" alt="" />
           </div>
           <div class="buy-image">
-            <img  src="/image/main/buy/stadia.png" alt="" />
-            <img  src="/image/main/buy/playstation.png" alt="" />
+            <img  src="/image/main/buy/stadia.webp" alt="" />
+            <img  src="/image/main/buy/playstation.webp" alt="" />
           </div>
         </div>
       </div>

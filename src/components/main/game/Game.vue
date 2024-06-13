@@ -13,7 +13,7 @@ function toggleCheck() {
     <div class="game__header"></div>
     <div class="container game__container">
       <div class="game__title">
-        <img src="/image/main/game/promo.png" alt="" />
+        <img src="/image/main/game/promo.webp" alt="" />
         <h2>Играй и выигрывай!</h2>
       </div>
       <p class="game__instruction">
@@ -53,12 +53,12 @@ function toggleCheck() {
 
 <style lang="scss" scoped>
 .game__header{
-  background-image: url('/image/main/game/header.png');
+  background-image: url('/image/main/game/header.webp');
   background-repeat: no-repeat;
   height: 70px;
 }
 .game__footer{
-  background-image: url('/image/main/game/footer.png');
+  background-image: url('/image/main/game/footer.webp');
   background-repeat: no-repeat;
   height: 70px;
 }
@@ -69,7 +69,7 @@ function toggleCheck() {
 }
 .game__container {
   padding: 20px 20px 80px 20px;
-  background-image: url('/image/main/game/console1.png');
+  background-image: url('/image/main/game/console1.webp');
   background-repeat: no-repeat;
   background-position: 95% 70%;
   background-size: 60%;
@@ -219,7 +219,7 @@ function toggleCheck() {
 @media(width<1150px){
   .game__container {
 
-  background-image: url('/image/main/game/console2.png');
+  background-image: url('/image/main/game/console2.webp');
   background-repeat: no-repeat;
   background-position: 95% 70%;
   background-size: 465px 870px;
@@ -251,7 +251,7 @@ function toggleCheck() {
   }
   .game__container {
 
-background-image: url('/image/main/game/console1.png');
+background-image: url('/image/main/game/console1.webp');
 background-repeat: no-repeat;
 background-position: 10% 15%;
 background-size: 480px 280px;
