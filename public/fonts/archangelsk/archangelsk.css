@@ -6,4 +6,5 @@
 		url('./archangelsk.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
 		url('./archangelsk.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('./archangelsk.svg#archangelsk') format('svg'); /* Chrome < 4, Legacy iOS */
+	font-display: swap;
 }
